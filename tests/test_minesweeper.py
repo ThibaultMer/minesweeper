@@ -64,5 +64,5 @@ def test_win_condition(game):
     assert game.is_winner() is True
 
     def test_fail():
-        #Test bison pour rater
+        #Test bidon pour rater
         assert False
