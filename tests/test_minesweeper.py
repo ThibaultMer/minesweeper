@@ -62,3 +62,7 @@ def test_win_condition(game):
 
     # Ensure the game recognizes a win condition
     assert game.is_winner() is True
+
+    def test_fail():
+        #Test bison pour rater
+        assert False
